@@ -1,0 +1,15 @@
+{
+  "_copy_without_render": [
+    ".pre-commit-config.yaml",
+    "cookiecutter.json",
+    "hooks",
+    "template",
+    "cookiecutter.github_repo"
+  ],
+  "cookiecutter_description": "Awesome cookiecutter inception",
+  "cookiecutter_name": "Cookiecutter Cookies",
+  "cookiecutter_slug": "{{ cookiecutter.cookiecutter_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "email": "john@doe.com",
+  "full_name": "John Doe",
+  "github_repo": "{{ cookiecutter.cookiecutter_slug }}"
+}

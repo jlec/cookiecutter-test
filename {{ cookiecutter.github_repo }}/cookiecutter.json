@@ -1,0 +1,8 @@
+{
+  "email": "john@doe.com",
+  "full_name": "John Doe",
+  "github_repo": "random-project",
+  "project_name": "Random Project",
+  "project_short_description": "Fantastic Ideas backed into code.",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}"
+}

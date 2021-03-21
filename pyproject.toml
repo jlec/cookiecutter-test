@@ -1,0 +1,41 @@
+[tool.black]
+line-length = 128
+
+[tool.poetry]
+name = "cookiecutter-cookie"
+version = "0.5.27"
+description = "Cookies for Cookiecutters"
+authors = ["Justin Lecher <justin@jlec.de>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1"
+commitizen = "^2.20"
+cruft = "^2.11"
+isort = "^5"
+pre-commit = "^2.15"
+pytest = "^6.2"
+pytest-clarity = "^1.0"
+pytest-cookies = "^0.6"
+pytest-parallel = "^0.1"
+pytest-xdist = "^2.4"
+pyupgrade = "^2"
+PyYAML = "^6.0"
+yamllint = "^1.26"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.5.27"
+tag_format = "v$version"
+update_changelog_on_bump = true
+version_files = [
+    "pyproject.toml:version",
+    "VERSION"
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
