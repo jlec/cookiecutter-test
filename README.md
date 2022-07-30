@@ -2,7 +2,7 @@
 
 Cookies for Cookiecutters
 
-Let's cook it up
+Let's cook it up some more
 
 ## License
 
